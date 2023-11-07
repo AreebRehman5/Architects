@@ -1,0 +1,157 @@
+body{
+    overflow-x: hidden;
+    
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  div.box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+div.card{
+    width: 350px;
+    text-align: center;
+    margin-top: 70px;
+    box-shadow: 0px 2px 4px 0 rgb(0,0 ,0,.2 ), 0 4px 16px 0 rgb(0,0 ,0,.2 );
+    cursor: pointer;
+}
+div.card img{
+    width: 100%;
+}
+  
+  li a:hover:not(.active) {
+    background-color: #fff
+  }
+  
+  .active {
+    background-color: #fff;
+  }
+
+  .card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: poppins, Helvetica, sans-serif;
+    }
+    .container{
+    background: #ffffff;
+    }
+    .title{
+    color: grey;
+    font-size: 18px;
+    }
+  
+    
+    button{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    }
+    a{
+    padding-right: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    font-family:poppins;
+    color: black;
+    }
+    button:hover, a:hover{
+    opacity: 0.7;
+    }
+    
+  button{
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: black;
+    background-color: #f1f1f1;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  a{
+    padding-right: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+  }
+  button:hover, a:hover{
+    opacity: 0.7;
+  }
+ 
+  p{
+    font-size: 18px;
+    text-align: center;
+    
+  }
+  h1{
+    font-size: 28px;
+  }
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 30px 20px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #f1f1f1;
+     color: black;
+    
+  }
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(17, 15, 14);
+    color: rgb(240, 227, 227);
+  }
+ .section{
+  display: flex;
+ }
+
